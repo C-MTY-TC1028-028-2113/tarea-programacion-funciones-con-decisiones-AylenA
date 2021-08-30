@@ -1,12 +1,12 @@
 def tarjetas(pliegos,plumones):
     
-    tarjetasPliegos = pliegos*12
-    tarjetasPlumones = plumones*35
+    tarPliegos = pliegos*12
+    tarPlumones = plumones*35
 
-    if tarjetasPliegos<=tarjetasPlumones:
-        return tarjetasPliegos
+    if tarPliegos<=tarPlumones:
+        return tarPliegos
     else:
-        return tarjetasPlumones
+        return tarPlumones
 
 def main():
     #escribe tu código abajo de esta línea

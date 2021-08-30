@@ -1,12 +1,12 @@
 # Escribe tus funciones abajo de esta línea
-def pies_cm(pies):
-    return pies * 30.48
+def pies_cm(feet):
+    return feet * 30.48
 
-def pulgadas_cm(pulgadas):
-    return pulgadas * 2.54
+def pulgadas_cm(inch):
+    return inch * 2.54
 
-def yardas_cm(yardas):
-    return yardas * 91.44
+def yardas_cm(yards):
+    return yards * 91.44
 
 def main():
     # Escribe tu código abajo de esta línea
